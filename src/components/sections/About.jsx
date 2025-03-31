@@ -3,12 +3,13 @@ import { RevealOnScroll } from "../RevealOnScroll";
 export const About = () => {
   const frontendSkills = [
     "React",
-    "Vue",
     "JavaScript",
+    "HTML",
+    "CSS",
     "TailwindCSS",
   ];
 
-  const backendSkills = ["Node.js", "Java", "MongoDB", "mySQL"];
+  const backendSkills = ["Node.js", "Java", "Spring Boot", "MongoDB", "mySQL"];
 
   return (
     <section
@@ -67,14 +68,17 @@ export const About = () => {
             <div className="p-6 rounded-xl border-white/10 border hover:-translate-y-1 transition-all">
               <h3 className="text-xl font-bold mb-4"> 🏫 Education </h3>
               <ul className="list-disc list-inside text-gray-300 space-y-2">
-                <li>
-                  <strong> B.S. in Computer Science </strong> - XYZ University
-                  (2016-2020)
+              <li>
+                  <strong> Back End Bootcamp </strong> - Factoría F5 (2024) - Completed a 550-hour bootcamp, building real-world projects with Java, Spring Boot, and MySQL. Skilled in backend development, databases, API REST and agile methodologies.
                 </li>
-                <li>
-                  Relevant Coursework: Data Structures, Web Development, Cloud
-                  Computing...
+              <li>
+                  <strong> Web Development Apps </strong> - ASATA (2023) - Completed a 510-hour bootcamp plus 80 hours of work experience, building real-world projects with HTML, CSS, Bootstrap, PHP, and MySQL. Skilled in web development, database management, API REST and responsive design.
                 </li>
+              <li>
+                  <strong> Full Stack Bootcamp </strong> - Ironhack (2022) - Completed a 600-hour bootcamp in English, developing real-world projects with React, MongoDB, JavaScript, HTML, Bootstrap, Git, and GitHub. Skilled in frontend and backend development, database management, and version control.
+                </li>
+              
+                
               </ul>
             </div>
             <div className="p-6 rounded-xl border-white/10 border hover:-translate-y-1 transition-all">
@@ -83,22 +87,20 @@ export const About = () => {
                 <div>
                   <h4 className="font-semibold">
                    
-                    Software Engineer at ABC Corp (2020 - Present){" "}
+                    Intern Front End Developer at Ingenium S.L. (Llanera- Asturias 2023)
                   </h4>
                   <p>
-                    Developed and maintained microservices for cloud-based
-                    applications.
+                  Internship period in which I developed a web application for resolving technical issues with home automation devices.
                   </p>
                 </div>
 
                 <div>
                   <h4 className="font-semibold">
                 
-                    Intern at DEF Startups (2019){" "}
+                    Intern at Quinky Startups (Remote - Netherlands 2022)
                   </h4>
                   <p>
-                    Assisted in building front-end components and integration
-                    REST APIs
+                  Creating a mock app with given wireframes, looking for competitors's features and documenting them.
                   </p>
                 </div>
               </div>
